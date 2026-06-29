@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <!-- Gradient for the question mark -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="60%" stop-color="#f0f3ff" />
+      <stop offset="100%" stop-color="#b8c8ff" />
+    </linearGradient>
+  </defs>
+
+  <!-- Center Question Mark (Mirrored horizontally using scale(-1, 1) at x="-60" to counteract the parent CSS flip) -->
+  <text x="-60" y="94" text-anchor="middle" font-family="'Luckiest Guy', Arial Black, sans-serif" font-size="94" font-weight="bold" fill="url(#textGrad)" stroke="#11131e" stroke-width="8" paint-order="stroke fill" transform="scale(-1, 1)" filter="drop-shadow(0px 4px 8px rgba(0,0,0,0.5))">?</text>
+</svg>
